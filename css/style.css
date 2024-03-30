@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-align: center;
+
+    font-family: 'Chelsea Market', cursive;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #232323;
+
+    user-select: none;
+}
+
+header {
+    width: 100%;
+    height: 90%;
+
+    background-image: url(../img/Logo/background4.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #232323;
+
+}
+
+
+.main-title {
+    margin-top: 50px;
+
+    font-size: 30px;
+    color: white;
+}
+
+.container-pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.container-hour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 300px;
+
+    padding: 40px 0px;
+    margin: 20px 20px;
+
+    border-radius: 2px;
+    background-color: #181817;
+    box-shadow: #000000 0px 1px 10px;
+}
+
+.container-hour:hover {
+    box-shadow: #222222 1px 1px 40px;
+    transition: 0.2s ease-in-out;
+
+    border-radius: 10px;
+}
+
+.month {
+    font-size: 2rem;
+    color: white;
+}
+
+.month p {
+    font-size: 1rem;
+
+}
+
+.month h2 {
+    font-size: 1rem;
+}
+
+.month h3 {
+    font-size: 1rem;
+}
+
+.open-hour {
+    padding: 50px;
+}
+
+.container-cut {
+    width: 100%;
+    background-color: #171818;
+}
+
+.container-cut h2 {
+    padding: 40px 0;
+
+    font-size: 1.5rem;
+    color: white;
+}
+
+.container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: auto; */
+
+    width: 100%;
+    height: 100%;
+
+    padding: 0 0 100px 0;
+}
+
+
+.img_cort {
+    width: 300px;
+    height: 300px;
+
+    margin: 20px 0 0 20px;
+    border: none;
+
+
+    box-shadow: #000000 1px 1px 40px;
+    border-radius: 10px;
+    transition: 0.4s linear;
+}
+
+
+
+.img_cort:hover {
+    display: flex;
+    box-shadow: #505050 1px 1px 100px;
+    cursor: pointer;
+
+    width: 400px;
+    height: 400px;
+
+    transition: 0.5s linear;
+    z-index: 3;
+}
+
+
+
+section {
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 40px 0;
+
+}
+
+.section-title-price {
+    font-size: 1.5rem;
+    color: rgb(19, 19, 19);
+}
+
+.container-prices {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    font-size: 1.5rem;
+
+}
+
+.prices {
+    width: 250px;
+    padding: 100px 0;
+    margin-left: 40px;
+
+}
+
+.icons {
+    width: 110px;
+}
+
+
+footer {
+    background-color: #232526;
+    user-select: text;
+}
+
+.location {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.location h3 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+
+}
+
+
+.icon {
+    font-size: 1.5rem;
+    color: gainsboro;
+
+}
+
+.icon h4 {
+    padding: 20px;
+}
+
+iframe {
+    width: 400px;
+    height: 400px;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: #000000 5px 5px 50px;
+
+}
+
+.credit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 100%;
+    height: 100px;
+
+    font-size: 1.5rem;
+    color: rgb(194, 194, 194);
+    background-color: rgb(19, 19, 19);
+
+
+}
+
+.credit img {
+    padding-left: 5px;
+    display: flex;
+    float: right;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+
+    header {
+        width: 100%;
+        height: 25%;
+
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        background-image: url(../img/Logo/background4c.png);
+    }
+
+    .main-title {
+        font-size: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .information {
+        flex-wrap: wrap;
+
+    }
+
+    iframe {
+        margin-top: 40px;
+    }
+
+
+}
