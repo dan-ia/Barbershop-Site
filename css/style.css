@@ -125,8 +125,8 @@ main {
 
 
 .img_cort {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 
     margin: 20px 0 0 20px;
     border: none;
@@ -144,8 +144,8 @@ main {
     box-shadow: #505050 1px 1px 100px;
     cursor: pointer;
 
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 
     transition: 0.5s linear;
     z-index: 3;
@@ -170,20 +170,17 @@ section {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-
     font-size: 1.5rem;
-
 }
 
 .prices {
-    width: 250px;
+    width: 200px;
     padding: 100px 0;
     margin-left: 40px;
-
 }
 
 .icons {
-    width: 110px;
+    width: 100px;
 }
 
 
@@ -248,6 +245,10 @@ iframe {
     background-color: rgb(19, 19, 19);
 
 
+}
+
+.copy {
+    font-size: 16px;
 }
 
 .credit img {
